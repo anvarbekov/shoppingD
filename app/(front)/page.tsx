@@ -18,7 +18,7 @@ export default async function Home() {
   const latestProducts = await productService.getLatest()
   return (
     <>
-      <div className="w-full carousel rounded-box mt-4">
+      {/* <div className="w-full carousel rounded-box mt-4">
         {featuredProducts.map((product, index) => (
           <div
             key={product._id}
@@ -52,7 +52,7 @@ export default async function Home() {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       <h2 className="text-2xl py-2">Latest Products</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {latestProducts.map((product) => (
