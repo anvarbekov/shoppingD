@@ -122,9 +122,9 @@ body {
 
 /* swiper styles */
 
-.swiper {
-  width: 100%;
-  height: 100%;
+.my-5{
+  position: relative;
+  z-index: 0;
 }
 .swiper-wrapper{
   border-radius: 5px;
@@ -145,6 +145,6 @@ body {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 450px;
   object-fit: cover;
 }
