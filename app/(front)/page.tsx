@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Carousel from '@/components/carousel/Carousel'
 import ProductItem from '@/components/products/ProductItem'
 import data from '@/lib/data'
 import productService from '@/lib/services/productService'
@@ -53,6 +54,7 @@ export default async function Home() {
           </div>
         ))}
       </div> */}
+      <Carousel />
       <h2 className="text-2xl py-2">Latest Products</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {latestProducts.map((product) => (
