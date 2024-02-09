@@ -4,11 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'res.cloudinary.com', // if your website has no www, drop it
+        hostname: 'ecomfull.netlify.app/', // if your website has no www, drop it
       },
       {
-        protocol: 'http',
-        hostname: 'localhost',
+        protocol: 'https',
+        hostname: 'ecomfull.netlify.app/',
       },
     ],
   },
