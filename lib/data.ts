@@ -100,18 +100,6 @@ const data = {
       countInStock: 200,
       description: "Simmental qoramol zoti (nem. Simmental — Zimmental vodiysi nomidan) — sutgoʻsht yoʻnalishidagi qoramol zoti. Shveysariyada mahalliy va 5-asrda keltirilgan Skandinaviya qoramollarini yaxshilash yoʻli bilan chiqarilgan. Yevropa mamlakatlarida keng tarqalgan Simmental qoramol zotiz., asosan, mallaola, boshi va dumi uchi oq, yirik, tana tuzilishi mustahkam. Sigirlarining vazni 500–600 kg, buqalariniki 900– 1000 kg. Novvoslar boʻrdoqiga boqilganda tez semiradi, 12 oyligida 400– 420 kg, 18 oyligida 500–600 kg ga boradi. Yuqori sifatli goʻsht beradi. Soʻyim chiqimi 58—62%. Sigirlarning sut sogʻimi oʻrtacha 5000–6000 kg, yogʻlilikdarajasi 3,8—3,9%.3otning rekordchi sigirlari bir yilda 14—15 ming kg sut bergan. Simmental qoramol zotiz. oʻzining mahsuldorligi va turli iqlim sharoitlariga moslashganligi tufayli koʻpgina mamlakatlarga kesh: „tarqalgan. Rossiya va Ukrainaga 19-asrning boshlarida olib kelingan. Oʻzbekistonga 1942—55 yillarda koʻplab keltirilgan va sof holda urchitilgan. 1970-yildan boshlab Simmental qoramol zotiz. rayonlashtirilgan boshqa zotlar bilan chatishtirilgan.",
     },
-    {
-      name: 'Simmental zoti',
-      slug: 'simmentalniy-1',
-      category: 'Animals',
-      image: '/images/simmentalniy.jpg',
-      price: 1050,
-      brand: 'Simental',
-      rating: 3.5,
-      numReviews: 7,
-      countInStock: 200,
-      description: "Simmental qoramol zoti (nem. Simmental — Zimmental vodiysi nomidan) — sutgoʻsht yoʻnalishidagi qoramol zoti. Shveysariyada mahalliy va 5-asrda keltirilgan Skandinaviya qoramollarini yaxshilash yoʻli bilan chiqarilgan. Yevropa mamlakatlarida keng tarqalgan Simmental qoramol zotiz., asosan, mallaola, boshi va dumi uchi oq, yirik, tana tuzilishi mustahkam. Sigirlarining vazni 500–600 kg, buqalariniki 900– 1000 kg. Novvoslar boʻrdoqiga boqilganda tez semiradi, 12 oyligida 400– 420 kg, 18 oyligida 500–600 kg ga boradi. Yuqori sifatli goʻsht beradi. Soʻyim chiqimi 58—62%. Sigirlarning sut sogʻimi oʻrtacha 5000–6000 kg, yogʻlilikdarajasi 3,8—3,9%.3otning rekordchi sigirlari bir yilda 14—15 ming kg sut bergan. Simmental qoramol zotiz. oʻzining mahsuldorligi va turli iqlim sharoitlariga moslashganligi tufayli koʻpgina mamlakatlarga kesh: „tarqalgan. Rossiya va Ukrainaga 19-asrning boshlarida olib kelingan. Oʻzbekistonga 1942—55 yillarda koʻplab keltirilgan va sof holda urchitilgan. 1970-yildan boshlab Simmental qoramol zotiz. rayonlashtirilgan boshqa zotlar bilan chatishtirilgan.",
-    },
   ],
 }
 
