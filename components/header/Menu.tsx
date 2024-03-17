@@ -2,6 +2,7 @@
 import useCartService from '@/lib/hooks/useCartStore'
 import useLayoutService from '@/lib/hooks/useLayout'
 import { signIn, signOut, useSession } from 'next-auth/react'
+import { FaCartArrowDown } from "react-icons/fa";
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
@@ -66,7 +67,7 @@ const Menu = () => {
           </i>
           <li>
             <Link className="btn btn-ghost rounded-btn" href="/cart">
-              Cart
+            <FaCartArrowDown className='text-2xl' />
               {mounted && items.length != 0 && (
                 <div className="badge badge-secondary">
                   {items.reduce((a, c) => a + c.qty, 0)}{' '}

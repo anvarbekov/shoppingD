@@ -1,16 +1,21 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import Providers from '@/components/Providers'
 import DrawerButton from '@/components/DrawerButton'
 import Sidebar from '@/components/Sidebar'
 import Header from '@/components/header/Header1'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'Atlantic',
-  description: 'Modern ECommerce Website',
+  title: 'Shopping',
+  description: 'Modern Shopping Website',
 }
 
 export default function RootLayout({
@@ -20,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <Providers>
           <div className="drawer">
             <DrawerButton />
@@ -30,7 +35,7 @@ export default function RootLayout({
                 {children}
                 <footer className="footer footer-center p-4 bg-base-300 text-base-content">
                   <p>
-                    Copyright © 2024 - All right reserved by Atlantic service
+                    Copyright © 2024 - All right reserved by Azimdaryo Usmonjon
                   </p>
                 </footer>
               </div>

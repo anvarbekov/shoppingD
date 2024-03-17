@@ -1,7 +1,7 @@
 import AddToCart from '@/components/products/AddToCart'
 import { convertDocToObj } from '@/lib/utils'
 import productService from '@/lib/services/productService'
-import Image from 'next/image'
+import { FaArrowLeft } from "react-icons/fa6";
 import Link from 'next/link'
 import { Rating } from '@/components/products/Rating'
 
@@ -32,7 +32,7 @@ export default async function ProductDetails({
   return (
     <>
       <div className="my-2">
-        <Link href="/">back to products</Link>
+        <Link href="/"><FaArrowLeft /></Link>
       </div>
       <div className="grid md:grid-cols-4 md:gap-3">
         <div className="md:col-span-2">
@@ -42,10 +42,10 @@ export default async function ProductDetails({
             width={640}
             height={640}
             sizes="100vw"
-            className='rounded'
+            className='rounded-lg'
             style={{
               width: '100%',
-              height: 'auto',
+              height: '95%',
             }}
           />
         </div>

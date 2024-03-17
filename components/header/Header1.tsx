@@ -25,7 +25,7 @@ const Header = () => {
               </svg>
             </label>
             <Link href="/" className="btn btn-ghost text-lg">
-              Atlantic
+              ShoppingD
             </Link>
           </div>
 

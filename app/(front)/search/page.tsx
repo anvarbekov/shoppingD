@@ -226,7 +226,7 @@ export default async function SearchPage({
               <ProductItem key={product.slug} product={product} />
             ))}
           </div>
-          <div className="join">
+          <div className="join mt-4">
             {products.length > 0 &&
               Array.from(Array(pages).keys()).map((p) => (
                 <Link

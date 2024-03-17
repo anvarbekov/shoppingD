@@ -28,28 +28,13 @@ export default function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <img src="/images/banner-1.jpg" alt="" />
+            <img src="/images/banner-1.jpg" alt="Kiwi mevasi" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src="/images/banner-2.jpg" alt="" />
+            <img src="/images/banner-2.jpg" alt="Rukkola" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src="/images/banner-3.jpeg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src="/images/apples.jpg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src="/images/iPhone-12.png" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src="/images/iphone-13-pro.webp" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src="/images/iPhone-15.jpg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src="/images/xiomi11lite5g.jpg" alt="" />
+            <img src="/images/banner-3.jpg" alt="Chandler" />
         </SwiperSlide>
       </Swiper>
     </div>
