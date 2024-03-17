@@ -42,9 +42,9 @@ const data = {
     },
     {
       name: 'Rukolli',
-      slug: 'rukolli-1',
+      slug: 'rukoli-1',
       category: 'Plants',
-      image: '/images/rukolli.jpg',
+      image: '/images/rukoli.jpg',
       price: 40,
       brand: 'Plants',
       rating: 3.5,
